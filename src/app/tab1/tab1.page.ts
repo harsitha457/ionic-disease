@@ -8,7 +8,7 @@ import { SuperHero } from './superhero';
 export class Tab1Page {
   weapons = ['Iron Suit', 'Hammer', 'Bow and Arrow', 'Shield', 'Raw Power'];
   specialities = [ 'Technology', 'God of Thunder', 'Archery', 'War & Leadership', 'Scientist'];
-  model = new SuperHero(1,"Iron Man",this.weapons[0],this.specialities[0],"Tony stark");
+  model = new SuperHero(1,'Iron Man',this.weapons[0],this.specialities[0],'Tony stark');
 
   submitted = false;
   onSubmit()
